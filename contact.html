@@ -30,6 +30,8 @@
 
         <link rel="icon" type="image/png" href="assets/img/genie size (2).png">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+	    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
 
     <body>
@@ -150,7 +152,7 @@
 				<p>Take the first step towards achieving your goals! Enroll in English Genie today and start learning anytime, anywhere.</p>
    
 
-                            <form>
+                            <form id="#submit-form" action="">
                                 <div class="form-group">
                                     <label>Name</label>
                                     <input type="text" class="form-control" placeholder="Your Name">
@@ -187,7 +189,25 @@
             </div>
         </div>
     </div>
-
+ <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbwn3b4pSWcR08l4FP96TgrmNs9J3WLPMmIU1NUeelcFjoRLLKIA9kZ2Hfn5BpcfysWZ/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
         <br><br><br>
 
         <!-- using a responsive iframe -->
