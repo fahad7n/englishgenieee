@@ -6861,8 +6861,8 @@ SaaS Home Page CSS
 
 /* Saas banner */
 .saas-banner {
-  height: 840px;
-  background: #dc3545;
+  /* height: 840px; */
+  background: #ffffff;
   position: relative;
   z-index: 1;
 }
@@ -11331,3 +11331,270 @@ Footer Area CSS
 }
 /* End "SEO Marketing Demo" "IT Solution Demo" "Marketing Experts Demo" "CSS" */
 /*# sourceMappingURL=style.css.map */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) {
+
+  .split-home .right-section,  .split-home .left-section{
+     -webkit-overflow-scrolling: touch;
+ }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) {
+
+  .left-section .right-section,  .left-section .left-section{
+     -webkit-overflow-scrolling: touch;
+ }
+}
+
+
+.left-section {
+  /* background: url(/englishgenieee-main/assets/img/bgg.jpeg) no-repeat center center; */
+  /* background-size: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  z-index: 1; */
+  width: 50%;
+  height: auto;
+  margin-top: 93px;
+
+}
+
+.right-section {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  bottom: 0;
+  width: 50%;
+  height: auto;
+  
+  background: #ffff;
+  
+}
+
+@media only screen and (max-width : 801px) {
+
+  .right-section{
+     position: relative;
+     width: 100%;
+ }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+  .right-section{
+     -webkit-overflow-scrolling: touch;
+ }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) {
+
+  .split-home .right-section,  .split-home .left-section{
+     -webkit-overflow-scrolling: touch;
+ }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) and (orientation: landscape) {
+  .right-section{
+     -webkit-overflow-scrolling: touch;
+ }
+}
+
+
+
+
+.lesspadding {
+	padding-top: 0;
+	padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+.footer-credits {
+	font-family: Work Sans;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+/* ----- Footer Section Styling Ends ----- */
+
+
+/* -----------------------------------------------
+---------- Media Queries for Split Layout --------
+----------------------------------------------- */
+
+	@media only screen and (max-width : 801px) {
+
+     .right-section{
+        position: relative;
+        width: 100%;
+    }
+
+     .left-section{
+        position: relative;
+        width: 100%;
+        min-height: 50vh;
+    }
+
+		.btn-contact {
+			font-size: 18px;
+			padding: 10px 20px;
+		}
+
+		.split-about {
+			padding-top: 50px;
+		}
+
+		.split-about-details {
+			padding: 25px;
+		}
+
+		.portfolio-split {
+			padding-top: 100px;
+		}
+
+		.portfolio-split .portfolio-intro h1 {
+			font-size: 24px;
+		}
+
+		.portfolio-split .portfolio-intro {
+			padding: 1em;
+		}
+
+		.portfolio-single .project-details {
+			padding: 15px;
+		}
+
+			.primal-portfolio span {
+					margin-bottom: 0;
+					text-align: center;
+					width: 100%;
+			}
+
+			.primal-portfolio {
+			 padding-left: 15px;
+			 padding-right: 15px;
+			}
+
+			.primal-portfolio .categories ul li {
+					text-align: center;
+			}
+			.primal-portfolio .categories ul li a {
+					margin-left: 20px;
+			}
+
+	
+
+	
+	}
+
+
+  .footer-credits {
+    font-family: Work Sans;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+    .left-section {
+      margin-top: 71px;
+    }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .footer-personal {
+   text-align: center;
+   margin-top: 10px;
+    }
+  }
+
+  .bgbutton{
+    background-color: rgb(117, 191, 68);
+    color: black;
+    text-align: center;
+    border-radius: 48px;
+    text-shadow: none;
+    min-height: 56px;
+    padding-right: 26px;
+    padding-left: 26px;
+    justify-content: center;
+    border-style: none;
+    font-weight: bold;
+    letter-spacing: 0.063em;
+    max-width: 100%;
+    word-wrap: break-word;
+    text-decoration: none;
+    text-transform: uppercase;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: relative;
+    font-family: 'Josefin Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+
+  .bgwelcome{
+    color: black;
+    margin-bottom: 10px;
+    font-weight: 650;
+    line-height: 1.1;
+    word-wrap: break-word;
+    font-size: 24px;
+ 
+    margin-top: 0px;
+    font-family: 'Josefin Sans', Arial, sans-serif;
+    text-transform: none;
+    letter-spacing: normal;
+  }
+
+
+
+  @media only screen and (min-width: 992px) {
+    .footer-personal {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+  }
+  }
+
+  @media only screen and (min-width: 992px) {
+    .dol {
+      margin-left: 30px;
+  }
+  }
+  
+  
