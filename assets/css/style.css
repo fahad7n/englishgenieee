@@ -11541,7 +11541,7 @@ Footer Area CSS
 
   .bgbutton{
     background-color: rgb(117, 191, 68);
-    color: black;
+    color: #000;
     text-align: center;
     border-radius: 48px;
     
@@ -11567,6 +11567,9 @@ Footer Area CSS
     cursor: pointer;
  
 
+  }
+ .bgbutton:hover{
+    color: #000;
   }
 
   .bgwelcome{
