@@ -62,8 +62,8 @@ a {
 }
 
 a:hover {
-  text-decoration: none;
-  color: #13c4a1;
+
+  color:black;
 }
 
 button, input {
